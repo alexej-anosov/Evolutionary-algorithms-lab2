@@ -39,7 +39,7 @@ import org.uncommons.watchmaker.framework.termination.TargetFitness;
  */
 public class BitsExample
 {
-    private static final int BITS = 20;
+    private static final int BITS = 100;
 
     public static void main(String[] args)
     {

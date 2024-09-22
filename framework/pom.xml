@@ -25,8 +25,12 @@
 		<version>0.7.2</version>
 	</parent>
 	<artifactId>watchmaker-framework</artifactId>
+	<properties>
+		<maven.compiler.source>22</maven.compiler.source>
+		<maven.compiler.target>22</maven.compiler.target>
+	</properties>
 
-	<dependencies>
+    <dependencies>
 		<dependency>
 			<groupId>org.uncommons.maths</groupId>
 			<artifactId>uncommons-maths</artifactId>
